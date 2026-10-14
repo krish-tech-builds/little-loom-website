@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Little Loom — thoughtfully handmade crochet gifts and personalised keepsakes.">
+  <title>Little Loom | Made Slowly, Loved Forever</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    Thoughtfully handmade. Always made with love.
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Little Loom home">
+      <span class="brand-mark">ll.</span>
+      <span class="brand-name">little loom<span class="brand-caption">HANDMADE WITH HEART</span></span>
+    </a>
+
+    <button class="menu-toggle" id="menu-toggle" type="button"
+      aria-label="Open navigation" aria-expanded="false"
+      aria-controls="main-nav">☰</button>
+
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#collection">Collection</a>
+      <a href="#our-story">Our story</a>
+      <a href="#process">Our process</a>
+      <a class="nav-cta" href="#enquiry">Make it yours ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> THE ART OF GIVING</p>
+        <h1>Little things.<br>Made with <em>meaning.</em></h1>
+        <p class="hero-description">
+          Not just a gift, but a little piece of someone's heart.
+          Discover handmade keepsakes created slowly, thoughtfully,
+          and just for you.
+        </p>
+        <div class="hero-actions">
+          <a href="#collection" class="button button-dark">Explore the collection <span>↗</span></a>
+          <a href="#our-story" class="text-link">Discover our story <span>→</span></a>
+        </div>
+        <div class="hero-note">
+          <span class="note-symbol">✳</span>
+          <span>Made by hand, never by the dozen.</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="Decorative illustration of handmade crochet flowers">
+        <div class="hero-frame">
+          <div class="sun-disc"></div>
+          <div class="flower flower-one"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+          <div class="flower flower-two"><i></i><i></i><i></i><i></i><i></i><b></b></div>
+          <div class="flower-stem stem-one"></div>
+          <div class="flower-stem stem-two"></div>
+          <div class="leaf leaf-one"></div>
+          <div class="leaf leaf-two"></div>
+          <div class="vase"></div>
+          <div class="vase-neck"></div>
+          <span class="art-label">A little joy, by hand.</span>
+        </div>
+        <div class="round-stamp"><span>MADE WITH</span><strong>♡</strong><span>INTENTION</span></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>01</span> Made by hand</div>
+      <div><span>02</span> Made for you</div>
+      <div><span>03</span> Made to be kept</div>
+    </section>
+
+    <section class="collection section-pad" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A FEW FAVOURITE THINGS</p>
+          <h2>Find your <em>something special.</em></h2>
+        </div>
+        <p>Every stitch has a story.<br>Here's where yours begins.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter products">
+        <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All pieces</button>
+        <button class="filter-button" type="button" data-filter="crochet" aria-pressed="false">Crochet</button>
+        <button class="filter-button" type="button" data-filter="personalised" aria-pressed="false">Personalised</button>
+        <button class="filter-button" type="button" data-filter="occasions" aria-pressed="false">For occasions</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="crochet">
+          <div class="product-image product-image-flowers">
+            <span class="product-tag">THE LITTLE JOY</span>
+            <button class="heart-button" type="button" aria-label="Add flower bouquet to favourites" aria-pressed="false">♡</button>
+            <div class="mini-bouquet"><span>✿</span><span>✿</span><span>✿</span><span>✿</span><i></i></div>
+          </div>
+          <div class="product-info"><div><p class="product-category">CROCHET · FLOWERS</p><h3>The Forever Bouquet</h3></div><span class="product-price">From ₹499</span></div>
+          <p class="product-description">Blooms that never need a vase change.</p>
+          <button class="product-action" type="button" data-product="The Forever Bouquet">Make it yours <span>↗</span></button>
+        </article>
+
+        <article class="product-card" data-category="personalised">
+          <div class="product-image product-image-teddy">
+            <span class="product-tag">A WARM HUG</span>
+            <button class="heart-button" type="button" aria-label="Add handmade teddy to favourites" aria-pressed="false">♡</button>
+            <div class="teddy"><div class="teddy-ear left"></div><div class="teddy-ear right"></div><div class="teddy-head"><span class="teddy-eye eye-left"></span><span class="teddy-eye eye-right"></span><span class="teddy-nose"></span></div><div class="teddy-body"><span class="teddy-heart">♡</span></div><div class="teddy-arm arm-left"></div><div class="teddy-arm arm-right"></div><div class="teddy-foot foot-left"></div><div class="teddy-foot foot-right"></div></div>
+          </div>
+          <div class="product-info"><div><p class="product-category">CROCHET · KEEPSAKES</p><h3>The Little Companion</h3></div><span class="product-price">From ₹599</span></div>
+          <p class="product-description">A pocket-sized friend, made with care.</p>
+          <button class="product-action" type="button" data-product="The Little Companion">Make it yours <span>↗</span></button>
+        </article>
+
+        <article class="product-card" data-category="occasions">
+          <div class="product-image product-image-gift">
+            <span class="product-tag">FOR YOUR PERSON</span>
+            <button class="heart-button" type="button" aria-label="Add gift set to favourites" aria-pressed="false">♡</button>
+            <div class="gift-box"><div class="gift-lid"></div><div class="gift-body"></div><div class="gift-ribbon"></div><div class="gift-bow"></div></div>
+            <span class="gift-spark spark-one">✳</span><span class="gift-spark spark-two">✧</span>
+          </div>
+          <div class="product-info"><div><p class="product-category">GIFTING · CURATED</p><h3>The Thoughtful Box</h3></div><span class="product-price">From ₹799</span></div>
+          <p class="product-description">A little collection of their favourite things.</p>
+          <button class="product-action" type="button" data-product="The Thoughtful Box">Make it yours <span>↗</span></button>
+        </article>
+
+        <article class="product-card" data-category="personalised">
+          <div class="product-image product-image-charm">
+            <span class="product-tag">MADE JUST FOR YOU</span>
+            <button class="heart-button" type="button" aria-label="Add personalised charm to favourites" aria-pressed="false">♡</button>
+            <div class="charm-circle"><span>yours</span><strong>♡</strong></div>
+            <div class="charm-string"></div>
+          </div>
+          <div class="product-info"><div><p class="product-category">PERSONALISED · LITTLE EXTRAS</p><h3>The Everyday Charm</h3></div><span class="product-price">From ₹249</span></div>
+          <p class="product-description">A tiny reminder of someone special.</p>
+          <button class="product-action" type="button" data-product="The Everyday Charm">Make it yours <span>↗</span></button>
+        </article>
+      </div>
+      <p class="price-note">Illustrative products and starting prices for this website concept. Final prices and availability should be confirmed with Little Loom.</p>
+    </section>
+
+    <section class="story section-pad" id="our-story">
+      <div class="story-art">
+        <div class="story-circle circle-back"></div>
+        <div class="yarn-ball"><span></span></div>
+        <div class="crochet-hook"></div>
+        <span class="story-art-caption">Slow hands. Full hearts.</span>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">A SMALL BRAND WITH A BIG HEART</p>
+        <h2>Good things take <em>time.</em></h2>
+        <p>In a world that moves a little too quickly, we believe in making things that ask you to slow down and feel something.</p>
+        <p>Each Little Loom piece begins with an idea, a little yarn, and the intention to make someone smile. The result? Something wonderfully imperfect, beautifully personal, and entirely yours.</p>
+        <a href="#enquiry" class="text-link">Let's make something meaningful <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="process section-pad" id="process">
+      <div class="section-heading">
+        <div><p class="eyebrow">FROM OUR HANDS TO YOURS</p><h2>Simple, thoughtful, <em>personal.</em></h2></div>
+      </div>
+      <div class="process-grid">
+        <article><span class="process-number">01</span><span class="process-icon">✎</span><h3>Tell us your idea</h3><p>A favourite colour, a special person, or a moment worth remembering.</p></article>
+        <article><span class="process-number">02</span><span class="process-icon">⌁</span><h3>Made with care</h3><p>We bring your idea to life, stitch by stitch, with thoughtful details.</p></article>
+        <article><span class="process-number">03</span><span class="process-icon">♡</span><h3>Ready to be loved</h3><p>Your one-of-a-kind keepsake is ready for its new home.</p></article>
+      </div>
+    </section>
+
+    <section class="enquiry-section section-pad" id="enquiry">
+      <div class="enquiry-intro">
+        <p class="eyebrow">YOUR IDEA, OUR HANDS</p>
+        <h2>Let's make a little <em>magic.</em></h2>
+        <p>Tell us who you're gifting, what you're imagining, or simply what made you smile. We'll start from there.</p>
+        <div class="enquiry-aside"><span>✳</span><p>No two gifts need to be alike.<br>Yours should feel like yours.</p></div>
+      </div>
+      <form class="enquiry-form" id="enquiry-form">
+        <label for="customer-name">Your name <span>*</span></label>
+        <input id="customer-name" name="name" type="text" placeholder="What should we call you?" required>
+
+        <label for="customer-email">Email address <span>*</span></label>
+        <input id="customer-email" name="email" type="email" placeholder="you@example.com" required>
+
+        <label for="product-select">What caught your eye? <span>*</span></label>
+        <select id="product-select" name="product" required>
+          <option value="">Choose a little something...</option>
+          <option>The Forever Bouquet</option>
+          <option>The Little Companion</option>
+          <option>The Thoughtful Box</option>
+          <option>The Everyday Charm</option>
+          <option>A custom creation</option>
+        </select>
+
+        <label for="gift-details">Tell us a little more <span class="optional">(optional)</span></label>
+        <textarea id="gift-details" name="details" rows="4" placeholder="Colours, occasion, a name to personalise, or any idea you have..."></textarea>
+
+        <button class="button button-dark submit-button" type="submit">Prepare my enquiry <span>↗</span></button>
+        <p class="form-note">Demo only — your details won't be sent anywhere.</p>
+        <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+        <button class="copy-button" id="copy-enquiry" type="button" hidden>Copy enquiry text</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">little loom<span>MADE SLOWLY, LOVED FOREVER.</span></a>
+    <p>Small things, stitched with meaning.</p>
+    <a href="#home" class="back-top">Back to top ↑</a>
+    <div class="footer-bottom"><span>© <span id="current-year">2026</span> Little Loom · Website concept</span><span>Made thoughtfully, with ♡</span></div>
+  </footer>
+</body>
+</html>
