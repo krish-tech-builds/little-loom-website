@@ -20,9 +20,11 @@ A refined, editorial-inspired direction focused on elegant typography, carefully
 
 **Screenshot**
 
-![Concept 1 — Desktop preview](screenshots/concept-1-desktop.png)
+![Concept 1 — Desktop preview](screenshots/concept-1-editorial-desktop.png)
 
-[View mobile screenshot](screenshots/concept-1-mobile.png)
+![Concept 1 — Product collection](screenshots/concept-1-editorial-products.png)
+
+![Concept 1 — Mobile preview](screenshots/concept-1-editorial-mobile.png)
 
 ### Concept 2 — Playful
 
@@ -31,10 +33,11 @@ A cheerful, expressive direction designed to make handmade gifts feel fun, perso
 **Design focus:** Playful visual elements, friendly presentation, and an engaging browsing experience.
 
 **Screenshot**
+![Concept 2 — Desktop preview](screenshots/concept-2-playful-desktop.png)
 
-![Concept 2 — Desktop preview](screenshots/concept-2-desktop.png)
+![Concept 2 — Product collection](screenshots/concept-2-playful-products.png)
 
-[View mobile screenshot](screenshots/concept-2-mobile.png)
+![Concept 2 — Mobile preview](screenshots/concept-2-playful-mobile.png)
 
 ### Concept 3 — Modern Artisan
 
@@ -43,10 +46,11 @@ A warm, understated direction inspired by handmade craftsmanship. It uses an ear
 **Design focus:** A natural, premium aesthetic that communicates care, creativity, and the value of handmade products.
 
 **Screenshot**
+![Concept 3 — Desktop preview](screenshots/concept-3-artisan-desktop.png)
 
-![Concept 3 — Desktop preview](screenshots/concept-3-desktop.png)
+![Concept 3 — Product collection](screenshots/concept-3-artisan-products.png)
 
-[View mobile screenshot](screenshots/concept-3-mobile.png)
+![Concept 3 — Mobile preview](screenshots/concept-3-artisan-mobile.png)
 
 ## Features
 
